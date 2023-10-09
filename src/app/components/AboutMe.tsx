@@ -3,12 +3,12 @@ import Pensativo from '../../../public/pensativo.jpeg';
 
 const AboutMe = () => {
     return (
-        <section className="container mx-5 my-8 py-4 grid grid-cols-2">
+        <section id="about" className="py-24 grid grid-cols-2 bg-indigo-100">
             <div className="grid justify-items-center items-center">
                 <Image src={Pensativo} width={400} height={200} alt="Pensativo" className="rounded-lg border-2 transform motion-safe:hover:scale-110 duration-700 shadow-2xl"/>
             </div>
             <div className="justify-items-center items-center">
-                <h2 className="mt-10 mb-10">About Me:</h2>
+                <h2 className="mt-10 mb-10">Sobre Mim:</h2>
                 <p className="mr-10 text-justify">
                 Sou estudante de análise e desenvolvimento de sistema pela Estácio e também estudante Full Stack pela Imagine School, 
                 pretendo seguir na área Front-End, porém também possuo conhecimento para ser empregado na área Back-End, 

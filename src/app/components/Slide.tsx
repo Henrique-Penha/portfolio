@@ -28,7 +28,7 @@ const Slide = () => {
 
     const StickArrow = ({ direction, onClick }: {direction: Direction; onClick?: () => void}) => (
         <button type='button' className={`absolute w-16 h-full z-10 top-0 ${direction ? 'right-0' : 'left-0'}`} onClick={onClick}>
-            <FontAwesomeIcon icon={direction ? faChevronRight : faChevronLeft} size='3x' color='#000'/>
+            <FontAwesomeIcon icon={direction ? faChevronRight : faChevronLeft} size='3x' color='#FFF'/>
         </button>
     )
 
@@ -44,8 +44,8 @@ const Slide = () => {
 
 
     return (
-        <section className="container mx-5 py-10">
-            <h2 className="mt-5">Conhecimento em tecnologias:</h2>
+        <section className="px-4 py-10 bg-blue-950">
+            <h2 className="mt-5 text-white">Conhecimento em tecnologias:</h2>
             <Slider className="relative my-6 px-6" {...settings}>
                 <Image src={Html} width={70} height={70} alt='Html' className="p-5"/>
                 <Image src={Css} width={70} height={70} alt='Css' className="p-5"/>

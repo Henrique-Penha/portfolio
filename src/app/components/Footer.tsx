@@ -1,7 +1,7 @@
 const Footer = () => {
     return(
-        <footer className="container mx-5 py-8">
-            <h2 className="flex justify-center">Thank you for visit</h2>
+        <footer className="bg-indigo-100 px-5 py-8">
+            <h2 className="flex justify-center">@Obrigado pela Visita</h2>
         </footer>
     )
 }
