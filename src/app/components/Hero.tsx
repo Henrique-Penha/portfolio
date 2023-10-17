@@ -10,7 +10,7 @@ const Hero = () => {
                 </div>
                 <div className="my-10 py-10 px-5">
                     <p className="text-base">Hello, I'm</p>
-                    <h2 className="text-2xl font-bold">Henrique Penha</h2>
+                    <h2 className="text-3xl font-bold">Henrique Penha</h2>
                     <p className="text-xl">Frontend Developer</p>
                 </div>
             </div>

@@ -45,7 +45,7 @@ const Slide = () => {
 
     return (
         <section className="px-4 py-10 bg-blue-950">
-            <h2 className="mt-5 text-white">Conhecimento em tecnologias:</h2>
+            <h2 className="mt-5 text-white text-lg font-bold">Conhecimento em tecnologias:</h2>
             <Slider className="relative my-6 px-6" {...settings}>
                 <Image src={Html} width={70} height={70} alt='Html' className="p-5"/>
                 <Image src={Css} width={70} height={70} alt='Css' className="p-5"/>

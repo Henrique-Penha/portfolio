@@ -9,6 +9,7 @@ import Hero from "./components/Hero";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

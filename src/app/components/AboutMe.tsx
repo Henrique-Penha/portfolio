@@ -8,8 +8,8 @@ const AboutMe = () => {
                 <Image src={Pensativo} width={400} height={200} alt="Pensativo" className="rounded-lg border-2 transform motion-safe:hover:scale-110 duration-700 shadow-2xl"/>
             </div>
             <div className="justify-items-center items-center">
-                <h2 className="mt-10 mb-10">Sobre Mim:</h2>
-                <p className="mr-10 text-justify">
+                <h2 className="mt-10 mb-10 font-sans font-bold text-lg">Sobre Mim:</h2>
+                <p className="mr-14 text-justify leading-relaxed font-sans ">
                 Sou estudante de análise e desenvolvimento de sistema pela Estácio e também estudante Full Stack pela Imagine School, 
                 pretendo seguir na área Front-End, porém também possuo conhecimento para ser empregado na área Back-End, 
                 ou em ambas como desenvolvedor Full Stack.<br />

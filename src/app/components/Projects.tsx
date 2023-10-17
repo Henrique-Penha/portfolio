@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Test from '../../../public/Lua.test.jpg';
 import Link from "next/link";
 import Astro from "../../../public/Astro.jpg";
 import Imag from "../../../public/Imag.jpg";
@@ -10,7 +9,7 @@ import Lancamento from "../../../public/lancamento.png";
 const Projects = () => {
     return (
         <section id="projects" className="px-7 py-24 bg-black">
-                <h2 className="text-white text-lg">Conheça um pouco mais dos meus projetos e conhecimentos no uso das tecnologias: </h2>
+                <h2 className="text-white text-lg font-bold">Conheça um pouco mais dos meus projetos e conhecimentos no uso das tecnologias: </h2>
                 
                 <div className="grid grid-cols-3 gap-7 my-10"> 
                     <div className="rounded-lg border-2 border-orange-600 bg-white transform motion-safe:hover:scale-110 duration-700 shadow-lg shadow-white">
