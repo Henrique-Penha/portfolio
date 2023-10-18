@@ -5,6 +5,7 @@ import Imag from "../../../public/Imag.jpg";
 import Mag from "../../../public/Mag.jpg";
 import Shop from "../../../public/shop.jpg";
 import Lancamento from "../../../public/lancamento.png";
+import Studion from "../../../public/Studion.jpg";
 
 const Projects = () => {
     return (
@@ -22,11 +23,11 @@ const Projects = () => {
                         </p>
 
                         <div className="grid grid-cols-2 mb-8 justify-items-center">
-                            <button className="bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                            <button className="bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 <Link href="https://github.com/Henrique-Penha/magbank">Github</Link>
                             </button>
 
-                            <button className="bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                            <button className="bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 <Link href="https://magbank-gamma.vercel.app">Projeto</Link>
                             </button>
                         </div>
@@ -41,11 +42,11 @@ const Projects = () => {
                         </p>
 
                         <div className="grid grid-cols-2 pt-20 justify-items-center">
-                            <button className="bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                            <button className="bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 <Link href="https://github.com/Henrique-Penha/imagiflix">Github</Link>
                             </button>
 
-                            <button className="bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                            <button className="bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 <Link href="https://henrique-penha.github.io/imagiflix">Projeto</Link>
                             </button>
                         </div>
@@ -58,11 +59,11 @@ const Projects = () => {
                         </p>
 
                         <div className="grid grid-cols-2 pt-48 justify-items-center">
-                            <button className="bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                            <button className="bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 <Link href="https://github.com/Henrique-Penha/page-astronaut">Github</Link>
                             </button>
 
-                            <button className="bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                            <button className="bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 <Link href="https://henrique-penha.github.io/page-astronaut/">Projeto</Link>
                             </button>
                         </div>
@@ -78,29 +79,29 @@ const Projects = () => {
                         </p>
 
                         <div className="grid grid-cols-2 mb-4 justify-items-center">
-                            <button className="bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                            <button className="bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 <Link href="https://github.com/Henrique-Penha/imagineshop">Github</Link>
                             </button>
 
-                            <button className="bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                            <button className="bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 <Link href="https://imagishop.vercel.app">Projeto</Link>
                             </button>
                         </div>
                     </div>
 
                     <div className="rounded-lg border-2 mt-10 border-orange-600 bg-white transform motion-safe:hover:scale-110 duration-700 shadow-lg shadow-white">
-                        <Image src={Lancamento} width={2000} height={900} alt="Test" className="rounded-t-lg"/>
+                        <Image src={Studion} width={2000} height={900} alt="Test" className="rounded-t-lg"/>
                         <p className="m-5 text-justify">
                             Projeto de aplicação web, site feito com HTML, CSS e Javascript puro sem framework.
                         </p>
 
-                        <div className="grid grid-cols-2 pt-48 justify-items-center">
-                            <button className="bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                        <div className="grid grid-cols-2 pt-40 justify-items-center">
+                            <button className="bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 <Link href="https://github.com/Henrique-Penha/studion">Github</Link>
                             </button>
 
-                            <button className="bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
-                                <Link href="https://www.google.com.br">Projeto</Link>
+                            <button className="cursor-not-allowed bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                                Projeto
                             </button>
                         </div>
                     </div>
@@ -112,11 +113,11 @@ const Projects = () => {
                         </p>
 
                         <div className="grid grid-cols-2 pt-44 justify-items-center">
-                            <button className="cursor-not-allowed bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                            <button className="cursor-not-allowed bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 Github
                             </button>
 
-                            <button className="cursor-not-allowed bg-green-500 active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
+                            <button className="cursor-not-allowed bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
                                 Projeto
                             </button>
                         </div>
