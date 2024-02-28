@@ -101,7 +101,7 @@ const Projects = () => {
                             </button>
 
                             <button className="cursor-not-allowed bg-blue-900 text-white active:bg-green-700 w-20 h-10 rounded-lg transform motion-safe:hover:scale-110 duration-300">
-                                Projeto
+                                <Link href="https://ten-soda.surge.sh/">Projeto</Link>
                             </button>
                         </div>
                     </div>
