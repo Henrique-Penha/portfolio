@@ -17,7 +17,7 @@ const Projects = () => {
                         <Image src={Mag} width={2000} height={900} alt="Test" className="rounded-t-lg"/>
                         <p className="m-5 text-justify">
                         Aplicação web, site bancário, com página principal e modal de cadatramento de cliente, 
-                        página de login e página de logado, com informações sobre a conta e cliente, com opcão de transferência, 
+                        página de login e dashboard do usuário, com informações sobre a conta e cliente, com opcão de transferência, 
                         pagamentos e consultar extrato. Projeto apenas Front-End, criado na linguagem de programação Javascript, 
                         com as tecnologias React, Sass, Bootstrap.
                         </p>
