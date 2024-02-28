@@ -10,7 +10,7 @@ const AboutMe = () => {
             <div className="justify-items-center items-center">
                 <h2 className="mt-10 mb-10 font-sans font-bold text-lg">Sobre Mim:</h2>
                 <p className="mr-14 text-justify leading-relaxed font-sans ">
-                Sou estudante de análise e desenvolvimento de sistema pela Estácio e também estudante Full Stack pela Imagine School, 
+                Sou formado em análise e desenvolvimento de sistema pela Universidade Estácio de Sá (Estácio) e também formado no curso de Desenvolvedor Full Stack pela Imagine School, 
                 pretendo seguir na área Front-End, porém também possuo conhecimento para ser empregado na área Back-End, 
                 ou em ambas como desenvolvedor Full Stack.<br />
                 Tenho habilidades com linguagem de programação como Javascript e Typescript, além de conhecimentos em frameworks, 
